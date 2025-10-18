@@ -1,0 +1,32 @@
+{
+  "name": "canvas",
+  "version": "1.0.0",
+  "description": "",
+  
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nazar0929/canvas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nazar0929/canvas/issues"
+  },
+  "homepage": "https://github.com/Nazar0929/canvas#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.5.0",
+    "gh-pages": "^6.3.0"
+  }
+}
