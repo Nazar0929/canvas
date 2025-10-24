@@ -25,5 +25,9 @@ const config = {
   },
 };
 
-const canvasEl = document.getElementById("myChart");
-const salesChart = new Chart(canvasEl, config);
+
+
+
+
+const canvasElBar = document.getElementById("myChartBar");
+const salesChartBar = new Chart(canvasElBar, config); 
