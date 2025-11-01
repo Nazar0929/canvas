@@ -14,16 +14,17 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px; 
+  gap: 19px; 
   margin-bottom: 60px; 
 }
 
 .chart-container canvas {
   width: 300px !important;
   height: 250px !important;
-  background-color: #fff;
+  background-color: #dfdfdf;
   padding: 10px;
   border-radius: 10px;
+  
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
