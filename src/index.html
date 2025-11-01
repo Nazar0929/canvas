@@ -7,12 +7,29 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<canvas id="myChartBar"></canvas>
-<canvas id="myChartDoughnut"></canvas>
-<canvas id="myChartCanvas"></canvas>
+<div class="chart-container">
+    <canvas id="myChartBar"></canvas>
+    <canvas id="myChartDoughnut"></canvas>
+    <canvas id="myChartCanvas"></canvas>
+</div>
+
+
+ <main class="wrap">
+    <h1>Нажми правильную клавишу</h1>
+
+    <div class="game">
+      <p class="prompt">Нажми клавишу:</p>
+      <div id="key" class="key">?</div>
+      <div class="controls">
+        <button id="newGame" class="btn">Новая игра</button>
+      </div>
+    </div>
+  </main>
+
 
     <script type="module" src="./app.js"></script>
     <script type="module" src="./yes.js"></script>
     <script type="module" src="./canvas.js"></script>
+    <script type="module" src="./game.js"></script>
 </body>
 </html>
